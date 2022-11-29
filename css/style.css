@@ -1,0 +1,423 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h4, h5, h6{
+    font-family: 'Grand Hotel', cursive;
+}
+a, a:hover{
+    text-decoration: none;
+}
+.header-section{
+    background: url(../images/Group\ 1.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.main-logo {
+    padding: 40px 0px 20px;
+}
+.navbar-brand img {
+    width: 190px;
+}
+.navbar-nav .nav-item .nav-link{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 0px 10px 0px 10px;
+}
+.inner-banner{
+    padding: 80px 0px;
+}
+.inner-banner h1{
+    font-size: 200px;
+    line-height: 210px;
+    font-weight: 400;
+    color: #fff;
+}
+.inner-banner p{
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #fff;
+    word-spacing: 3px;
+}
+.inner-btn .btn-primary{
+    font-size: 20px;
+    font-weight: 700;
+    color: #e8565e;
+    text-transform: uppercase;
+    background: #fff;
+    padding: 15px 85px;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    margin: 40px 0px;
+}
+.inner-btn .btn-primary:hover{
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
+}
+.inner-btn .btn-primary:focus{
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
+}
+/* pop-section start here */
+.pop-section{
+    background: url(../images/popBg.png);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px 0px;
+}
+.heading-title h1 {
+    color: #e8565e;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 105px;
+}
+.heading-title p {
+    color: #333333;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0px;
+}
+.img-box {
+    padding: 70px 0px 0px;
+}
+.img-box .img-fluid{
+    width: 55%;
+}
+.img-box h3 {
+    color: #e8565e;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 60px;
+    padding-top: 6px;
+}
+.img-box p {
+    color: #333333;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+/* pop-section end here */
+/* counter section staRT */
+.counter-section{
+    background: url(../images/counterBG.png) center top no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+}
+.counter-section .heading-title h1{
+    color: #fff;
+    /* font-size: 90px;
+    font-weight: 400;
+    line-height: 105px; */
+}
+.counter-section .heading-title p{
+    color: #fff;
+}
+.inner-counter {
+    /* width: 230px; */
+    /* height: 230px; */
+    border: 3px dashed #fff;
+    border-radius: 50%;
+}
+.counter-number p {
+    color: #fff;
+    font-size: 60px;
+    line-height: 70px;
+}
+.counter-text p {
+    color: #fff;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin: 0px;
+    /* line-height: 40px; */
+}
+.inner-counter {
+    width: 230px;
+    height: 230px;
+    border: 4px dashed #fff;
+    border-radius: 50%;
+    align-items: center;
+    display: grid;
+    padding: 45px;
+}
+.box-center {
+    text-align: -webkit-center;
+    padding: 80px 0px;
+}
+/* counter section end */
+/* pasta-section start */
+.menu-section{
+    width: 100%;
+    padding: 80px 0px;
+    background: #eee6cc;
+}
+.card-row{
+    padding-top: 80px;
+}
+.card{
+    background: none;
+    border: none;
+}
+.card .img-fluid{
+    width: 40%;
+}
+.col-md-4.crd-img {
+    text-align: center;
+    padding: 20px 10px 0px 0px;
+}
+.card-title {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 400;
+    color: #e8565e;
+}
+.card-text{
+    font-size: 16px;
+    /* line-height: 50px; */
+    font-weight: 400;
+    color: #333333;
+}
+/* memu section end */
+/* pasta-section start */
+.delcious{
+    padding: 0px;
+}
+.delcious img{
+    height: 730px;
+    width: 700px;
+    padding: 0px;
+}
+.pasta-section .heading-title h1 {
+    color: #e8565e; 
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 105px;
+}
+.pasta-section .heading-title p {
+    color: #333333;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0px;
+}
+.heading-title .btn-primary{
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    background: #e8565e;
+    padding: 15px 85px;
+    border-radius: 30px;
+    border: 2px solid #e8565e;
+    margin: 40px 0px;
+}
+.heading-title .btn-primary:hover, .heading-title .btn-primary:focus{
+    color: #e8565e;
+    background: transparent;
+    border: 2px solid #e8565e;
+}
+/* .pasta-section{
+    background: url(../images/pastsbg.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+/* pasta-section end */
+
+/* package section start here */
+.package-section{
+    width: 100%;
+    padding: 80px 0px;
+    background: #eee6cc;
+}
+.package-section .mr-top {
+    margin: 65px 0px 0px;
+}
+.price-box{
+    background: #faf5e4;
+    padding: 60px 0px 20px;
+}
+.inner-price h5 {
+    color: #e8565e;
+    font-size: 35px;
+    margin-top: 50px;
+}
+.inner-price p{
+    color: #333333;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.inner-price .btn-info{
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    background: #e8565e;
+    padding: 15px 85px;
+    border-radius: 30px;
+    border: 2px solid #e8565e;
+    margin: 40px 0px;
+}
+.inner-price .btn-info:hover, .inner-price .btn-info:focus{
+    color: #e8565e;
+    background: transparent;
+    border: 2px solid #e8565e;
+}
+/* package section end here */
+/* chef section start here */
+.chef-section{
+    background: url(../images/CardGroup7.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+}
+.chef-title h2 {
+    color: #e8565e;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 90px;
+}
+.chef-info {
+    color: #3d3d3d;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 0px;
+    letter-spacing: 1px;
+    padding: 50px 0px 40px;
+}
+.chef-img{
+    width: 100%;
+}
+.chef-img img {
+    width: 250px;
+}
+/* chef section end here */
+/* subscribe section start here */
+.subscribe{
+    padding: 80px 0px;
+    background: #faf5e4;
+}
+.subscribe .heading-title p {
+    color: #333333;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 45px;
+}
+.subscribe .subscribe-btn {
+    width: 50%;
+    position: relative;
+}
+.subscribe-btn .btn-success {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    border: 2px solid #e8565e;
+    border-radius: 30px;
+    background: #e8565e;
+    padding: 14px 30px;
+    letter-spacing: 1px;
+}
+.subscribe-btn .form-control {
+    background: #fff;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-size: 18px;
+    color: #7f7f7f;
+}
+.subscribe-btn .btn-success:hover, .subscribe-btn .btn-success:focus{
+    color: #e8565e;
+    background: #fff;
+    border: 2px solid #e8565e;
+}
+.form-control:focus {
+    box-shadow:none !important;
+}
+/* subscribe section end here */
+/* footer part start here */
+.footer-section {
+    background: #2a2a2a;
+    padding: 80px 0px 0px;
+}
+.widget-box h4{
+    font-size: 40px;
+    line-height: 50px;
+    color: #fff;
+}
+.widget-box p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+}
+.useful-links{
+    margin: 0px;
+    padding: 0px;
+}
+.useful-links li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+.useful-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+    line-height: 26px;
+    font-weight: 400;
+}
+.useful-links li a i {
+    font-size: 18px;
+    color: #000000;
+    background: #fff;
+    margin-right: 12px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 100%;
+    text-align: center;
+}
+.footer-section h5 {
+    font-size: 34px;
+    line-height: 44px;
+    color: #fff;
+}
+.pd-mddle{
+padding-left: 50px;
+}
+.pd-end{
+    padding-left: 70px;
+}
+.main-footer {
+    padding: 80px 0px;
+}
+.main-footer p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 0px;
+}
+/* footer part end here */
+
+

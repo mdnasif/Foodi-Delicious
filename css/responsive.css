@@ -1,0 +1,636 @@
+   /* Responsive code start */
+/* low resulation mobile phone--glaxy fold */
+@media (min-width: 279px) and (max-width: 319px){
+    .navbar-toggler {
+        color: #fff;
+        border: 3px solid #fff;
+        margin-top: -70px;
+    }
+    .navbar-toggler i{
+      font-size: 18px;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+    }
+    .navbar-brand img {
+        width: 130px !important;
+    }
+    .navbar{
+        background-color:#e8565e7d;
+        padding: 0px;
+    }
+    .navbar-nav .nav-item {
+        border-top: 2px solid #ec979c;
+        padding: 5px 10px 5px 0px;
+    }
+    .navbar-nav .nav-item .nav-link {
+        font-size: 14px !important;
+        margin: 0px 0px 0px 0px !important;
+    }
+    .navbar-collapse {
+        transition: 1s;
+        transition-timing-function: linear;
+    }
+    .inner-banner h1 {
+        font-size: 70px !important;
+        line-height: 80px !important;
+        margin-bottom: 25px;
+    }
+    .inner-banner p {
+        font-size: 14px !important;
+        line-height: 24px !important;
+        word-spacing: 1px !important;
+    }
+    .inner-btn .btn-primary {
+        font-size: 12px !important;
+        padding: 15px 45px !important;
+    }
+    .pop-section {
+        padding: 40px 0px !important;
+    }
+    .heading-title h1 {
+        font-size: 45px !important;
+    }
+    .heading-title p {
+        font-size: 16px !important;
+        line-height: 26px !important;
+    }
+    .img-box {
+        padding: 50px 0px 0px !important;
+    }
+    .img-box p {
+        font-size: 14px !important;
+        line-height: 24px !important;
+        padding-top: 10px !important;
+    }
+    .img-box h3 {
+        font-size: 40px !important;
+        line-height: 50px !important;
+    }
+    .delcious img {
+        width: 100% !important;
+        height: 50vh !important;
+    }
+    .counter-section {
+        padding: 60px 0px 50px !important;
+    }
+    .counter-number p {
+        font-size: 35px !important;
+        line-height: 45px !important;
+        margin: 0px;
+    }
+    .counter-text p {
+        font-size: 20px !important;
+        line-height: 30px !important;
+    }
+    .inner-counter {
+        width: 180px !important;
+        height: 180px !important;
+        margin-bottom: 20px;
+    }
+    .box-center {
+        padding: 80px 0px 20px !important;
+    }
+    .menu-section {
+        padding: 40px 0px 20px !important;
+    }
+    .card-row {
+        padding-top: 40px !important;
+    }
+    .card .img-fluid {
+        width: 22% !important;
+    }
+    .card-row .crd-img {
+        padding: 0px 0px 0px 0px !important;
+        width: 100%;
+    }
+    .card-body {
+        text-align: center;
+        padding: 20px 0px;
+    }
+    .card-text {
+        font-size: 12px !important;
+    }
+    .package-section {
+        padding: 40px 0px !important;
+    }
+    .heading-title .btn-primary {
+        font-size: 12px !important;
+        padding: 10px 35px !important;
+    }
+    .pasta-section .heading-title h1 {
+        font-size: 45px !important;
+        line-height: 55px !important;
+    }
+    .pasta-section .heading-title{
+        padding: 45px 0px 20px !important;
+    }
+    .inner-price p {
+        font-size: 12px !important;
+        line-height: 22px !important;
+        margin: 0px !important;
+    }
+    .price-box {
+        padding: 50px 0px 20px !important;
+        margin-bottom: 20px;
+    }
+    .inner-price h5 {
+        margin-top: 35px !important;
+    }
+    .inner-price .btn-info {
+        font-size: 14px !important;
+        padding: 12px 45px !important;
+    }
+    .chef-section {
+        padding: 40px 0px !important;
+    }
+    .chef-img img {
+        width: 150px !important;
+    }
+    .chef-info {
+        font-size: 12px !important;
+        line-height: 22px !important;
+        letter-spacing: 0px !important;
+        padding: 40px 0px 40px !important;
+    }
+    .chef-title h2 {
+        color: #e8565e !important;
+        font-size: 50px !important;
+        line-height: 60px !important;
+        margin: 0px !important;
+    }
+    .subscribe {
+        padding: 40px 0px 80px !important;
+    }
+    .subscribe .subscribe-btn {
+        width: 100% !important;
+    }
+    .subscribe-btn .form-control {
+        padding: 12px 10px !important;
+        font-size: 12px !important;
+    }
+    .subscribe-btn .btn-success {
+        font-size: 10px !important;
+        padding: 12px 15px !important;
+        letter-spacing: 0px !important;
+    }
+    .footer-section {
+        padding: 40px 0px 0px !important;
+    }
+    .widget-box {
+        padding-left: 8px;
+    }
+    .widget-box h4 {
+        font-size: 35px !important;
+        line-height: 45px !important;
+    }
+    .widget-box p {
+        font-size: 12px !important;
+        line-height: 22px !important;
+    }
+    .footer-section h5 {
+        font-size: 30px !important;
+        line-height: 40px !important;
+    }
+    .useful-links li a {
+        font-size: 12px !important;
+        line-height: 22px !important;
+    }
+    .pd-mddle {
+        padding-left: 25px !important;
+        margin-bottom: 20px;
+    }
+    .pd-end {
+        padding-left: 25px !important;
+    }
+    .useful-links li {
+        margin-bottom: 8px;
+    }
+    .main-footer {
+        padding: 35px 0px 40px !important;
+    }
+    .main-footer p {
+        font-size: 12px !important;
+        letter-spacing: 0px !important;
+        margin: 0px !important;
+    }
+}
+/* most of the smartphone devices */
+@media (min-width: 320px) and (max-width: 480px){
+        .navbar-toggler {
+            color: #fff;
+            border: 3px solid #fff;
+            margin-top: -95px;
+        }
+        .navbar-toggler i{
+          font-size: 25px;
+        }
+        .navbar-toggler:focus {
+            text-decoration: none;
+            outline: 0;
+            box-shadow: none;
+        }
+        .navbar{
+            background-color:#e8565e7d;
+            padding: 0px;
+        }
+        .navbar-nav .nav-item{
+            border-top: 2px solid #ec979c;
+            padding: 12px 10px 12px 10px;
+        }
+        .navbar-collapse {
+            transition: 1s;
+            transition-timing-function: linear;
+        }
+        .inner-banner h1 {
+            font-size: 110px !important;
+            line-height: 120px !important;
+            margin-bottom: 25px;
+        }
+        .inner-banner p {
+            font-size: 20px;
+            line-height: 30px;
+            word-spacing: 2px;
+        }
+        .pop-section {
+            padding: 60px 0px !important;
+        }
+        .heading-title h1 {
+            font-size: 68px !important;
+        }
+        .heading-title p {
+            font-size: 18px !important;
+            line-height: 28px !important;
+        }
+        .delcious img {
+            width: 100% !important;
+            height: 550px !important;
+        }
+        .counter-section {
+            padding: 80px 0px 60px !important;
+        }
+        .counter-number p {
+            font-size: 50px !important;
+            line-height: 60px !important;
+            margin: 0px;
+        }
+        .counter-text p {
+            font-size: 28px !important;
+            margin: 0px;
+            line-height: 40px !important;
+        }
+        .inner-counter {
+            width: 220px !important;
+            height: 220px !important;
+            margin-bottom: 20px;
+        }
+        .box-center {
+            padding: 80px 0px 20px !important;
+        }
+        .menu-section {
+            padding: 60px 0px 40px !important;
+        }
+        .card .img-fluid {
+            width: 30% !important;
+        }
+        .card-row .crd-img {
+            padding: 20px 0px 0px 0px !important;
+            width: 100%;
+        }
+        .card-body {
+            text-align: center;
+            padding: 20px 20px;
+        }
+        .package-section {
+            padding: 60px 0px !important;
+        }
+        .heading-title .btn-primary{
+            font-size: 16px !important;
+            padding: 12px 45px !important;
+        }
+        .pasta-section .heading-title h1 {
+            font-size: 65px !important;
+        }
+        .pasta-section .heading-title{
+            padding: 40px 0px 30px;
+        }
+        .price-box {
+            padding: 55px 0px 20px !important;
+            margin-bottom: 20px;
+        }
+        .inner-price .btn-info {
+            font-size: 16px !important;
+            padding: 15px 69px !important;
+        }
+        .chef-section {
+            padding: 60px 0px !important;
+        }
+        .chef-img img {
+            width: 200px !important;
+        }
+        .chef-info {
+            font-size: 16px !important;
+            line-height: 26px !important;
+            letter-spacing: 0px !important;
+            padding: 40px 0px 40px !important;
+        }
+        .chef-title h2 {
+            color: #e8565e !important;
+            font-size: 75px !important;
+            line-height: 85px !important;
+        }
+        .subscribe {
+            padding: 60px 0px 80px !important;
+        }
+        .subscribe .subscribe-btn {
+            width: 100% !important;
+        }
+        .subscribe-btn .form-control {
+            padding: 12px 15px !important;
+            font-size: 18px !important;
+        }
+        .subscribe-btn .btn-success {
+            font-size: 12px !important;
+            padding: 14px 22px !important;
+        }
+        .footer-section {
+            padding: 60px 0px 0px !important;
+        }
+        .widget-box {
+            padding-left: 20px;
+        }
+        .pd-mddle {
+            padding-left: 38px !important;
+            margin-bottom: 20px;
+        }
+        .pd-end {
+            padding-left: 38px !important;
+        }
+        .useful-links li {
+            margin-bottom: 8px;
+        }
+        .main-footer {
+            padding: 52px 0px 60px !important;
+        }
+        .main-footer p {
+            margin: 0px !important;
+        }
+}
+/* mobile phone and low resulation tablet */
+@media (min-width: 481px) and (max-width: 767px){
+
+    .navbar-toggler {
+        color: #fff;
+        border: 3px solid #fff;
+        margin-top: -95px;
+    }
+    .navbar-toggler i{
+      font-size: 25px;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+    }
+    .navbar{
+        background-color:#e8565e7d;
+        padding: 0px;
+    }
+    .navbar-nav .nav-item{
+        border-top: 2px solid #ec979c;
+        padding: 12px 10px 12px 10px;
+    }
+    .navbar-collapse {
+        transition: 1s;
+        transition-timing-function: linear;
+    }
+    .inner-banner h1 {
+        font-size: 110px !important;
+        line-height: 120px !important;
+        margin-bottom: 25px;
+    }
+    .inner-banner p {
+        font-size: 20px !important;
+        line-height: 32px;
+    }
+    .img-box {
+        padding: 60px 0px 0px !important;
+    }
+    .img-box .img-fluid {
+        width: 42% !important;
+    }
+    .pop-section {
+        padding: 60px 0px !important;
+    }
+    .heading-title h1 {
+        font-size: 68px !important;
+    }
+    .heading-title p {
+        font-size: 18px !important;
+        line-height: 28px !important;
+    }
+    .delcious img {
+        width: 100% !important;
+        height: 550px !important;
+    }
+    .counter-section {
+        padding: 80px 0px 60px !important;
+    }
+    .counter-number p {
+        font-size: 50px !important;
+        line-height: 60px !important;
+        margin: 0px;
+    }
+    .counter-text p {
+        font-size: 28px !important;
+        margin: 0px;
+        line-height: 40px !important;
+    }
+    .inner-counter {
+        width: 220px !important;
+        height: 220px !important;
+        margin-bottom: 25px;
+    }
+    .box-center {
+        padding: 60px 0px 20px !important;
+    }
+    .menu-section {
+        padding: 60px 0px 40px !important;
+    }
+    .card .img-fluid {
+        width: 15% !important;
+    }
+    .card-row .crd-img {
+        padding: 20px 0px 0px 0px !important;
+        width: 100%;
+    }
+    .card-body {
+        text-align: center;
+        padding: 20px 90px;
+    }
+    .package-section {
+        padding: 60px 0px !important;
+    }
+    .heading-title .btn-primary{
+        font-size: 16px !important;
+        padding: 12px 45px !important;
+    }
+    .pasta-section .heading-title h1 {
+        font-size: 65px !important;
+    }
+    .pasta-section .heading-title{
+        padding: 40px 0px 30px;
+    }
+    .price-box {
+        padding: 55px 0px 20px !important;
+        margin-bottom: 20px;
+    }
+    .inner-price .btn-info {
+        font-size: 16px !important;
+        padding: 15px 69px !important;
+    }
+    .chef-section {
+        padding: 60px 0px !important;
+    }
+    .chef-img img {
+        width: 200px !important;
+    }
+    .chef-info {
+        font-size: 16px !important;
+        line-height: 26px !important;
+        letter-spacing: 0px !important;
+        padding: 40px 0px 40px !important;
+    }
+    .chef-title h2 {
+        color: #e8565e !important;
+        font-size: 75px !important;
+        line-height: 85px !important;
+    }
+    .subscribe {
+        padding: 60px 0px 80px !important;
+    }
+    .subscribe .subscribe-btn {
+        width: 100% !important;
+    }
+    .subscribe-btn .form-control {
+        padding: 12px 15px !important;
+        font-size: 18px !important;
+    }
+    .subscribe-btn .btn-success {
+        font-size: 12px !important;
+        padding: 14px 22px !important;
+    }
+    .footer-section {
+        padding: 60px 0px 0px !important;
+    }
+    .widget-box {
+        padding-left: 20px;
+    }
+    .pd-mddle {
+        padding-left: 38px !important;
+        margin-bottom: 20px;
+    }
+    .pd-end {
+        padding-left: 38px !important;
+    }
+    .useful-links li {
+        margin-bottom: 8px;
+    }
+    .main-footer {
+        padding: 52px 0px 60px !important;
+    }
+    .main-footer p {
+        margin: 0px !important;
+    }
+
+}
+  /* tablet, notebook */
+  @media (min-width: 768px) and (max-width: 1024px){
+    .navbar-toggler {
+        color: #fff;
+        border: 3px solid #fff;
+        margin-top: -80px;
+    }
+    .navbar-toggler i{
+      font-size: 25px;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+    }
+    .navbar{
+        background-color:#e8565e7d;
+        padding: 0px;
+    }
+    .navbar-nav .nav-item {
+        border-top: 2px solid #ec979c;
+        padding: 12px 10px 12px 0px !important;
+    }
+    .navbar-nav .nav-item .nav-link {
+        margin: 0px 10px 0px 0px !important;
+    }
+    .navbar-collapse {
+        transition: 1s;
+        transition-timing-function: linear;
+    }
+    .img-box {
+        padding: 60px 0px 0px !important;
+    }
+    .img-box h3 {
+        font-size: 36px !important;
+        line-height: 46px !important;
+    }
+    .inner-counter {
+        width: 210px !important;
+        height: 210px !important;
+    }
+    .counter-number p {
+        font-size: 50px !important;
+        line-height: 60px !important;
+        margin: 0px !important;
+    }
+    .card-body {
+        padding: 0px !important;
+    }
+    .col-md-4.crd-img {
+        padding: 10px 0px 0px 0px !important;
+    }
+    .delcious img {
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .pasta-section .heading-title{
+        padding-left: 20px;
+    }
+    .pasta-section .heading-title h1 {
+        font-size: 60px !important;
+    }
+    .heading-title .btn-primary {
+        font-size: 18px !important;
+        padding: 15px 45px !important;
+    }
+    .inner-price .btn-info {
+        font-size: 16px !important;
+        padding: 10px 35px !important;
+    }
+    .inner-price p {
+        font-size: 14px !important;
+        line-height: 24px !important;
+    }
+    .price-box {
+        padding: 50px 0px 20px !important;
+    }
+    .subscribe .subscribe-btn {
+        width: 80% !important;
+    }
+    .ft-abtus{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .main-footer p {
+        margin: 0px;
+    }
+  }
